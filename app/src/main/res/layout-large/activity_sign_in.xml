@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+
+    <ImageView
+        android:layout_width="427dp"
+        android:layout_height="319dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="68dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="808dp"
+        android:layout_height="603dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/signinbanner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+
+        android:layout_width="468dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="380dp"
+        android:layout_marginStart="132dp"
+        android:fontFamily="@font/atomic_age"
+        android:text="Please Sign In..."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/password"
+
+        android:layout_width="352dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="208dp"
+        android:layout_marginStart="132dp"
+        android:ems="10"
+        android:fontFamily="@font/atomic_age"
+        android:hint="Password..."
+        android:textColorHint="#FFFFFF"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="350dp"
+        android:layout_height="67dp"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginBottom="288dp"
+        android:layout_marginStart="132dp"
+        android:ems="10"
+        android:fontFamily="@font/atomic_age"
+        android:hint="Username..."
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:onClick="doSubmitPressed"
+        android:id="@+id/submit"
+        android:layout_width="350dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="108dp"
+        android:layout_marginStart="132dp"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/atomic_age"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/signup"
+        android:onClick="doSignUpPressed"
+        android:layout_width="350dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="132dp"
+        android:text="Sign Up"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/atomic_age"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/pb2"
+        android:layout_width="63dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:indeterminateDrawable="@drawable/rotation_drawable"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</android.support.constraint.ConstraintLayout>
