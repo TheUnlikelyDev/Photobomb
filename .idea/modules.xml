@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Version 1.0.iml" filepath="$PROJECT_DIR$/Version 1.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Photobomb.iml" filepath="$PROJECT_DIR$/Photobomb.iml" />
+      <module fileurl="file://C:\Users\wsm18\Desktop\Photobomb\Version 1.0.iml" filepath="C:\Users\wsm18\Desktop\Photobomb\Version 1.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
